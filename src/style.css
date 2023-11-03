@@ -1,0 +1,274 @@
+@font-face {
+  font-family: poppins;
+  src: url(fonts/Poppins-Medium.ttf);
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 20px;
+  position: fixed;
+  top: 0%;
+  border-bottom: 2px solid #e5e7eb;
+  background-color: white;
+}
+body {
+  font-family: poppins;
+}
+.logo {
+  width: 140px;
+  height: 50px;
+}
+.icon {
+  width: 70px;
+  height: 60px;
+}
+ul {
+  display: flex;
+}
+li:hover {
+  color: rgb(226, 55, 68);
+}
+li {
+  list-style: none;
+  margin-right: 20px;
+  font-family: poppins;
+  color: rgb(51, 49, 49);
+}
+.register {
+  background-color: rgb(226, 55, 68);
+  color: white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-weight: 900;
+  border: rgb(226, 55, 68);
+}
+
+.login {
+  color: rgb(51, 49, 49);
+  background-color: white;
+  padding: 10px 20px;
+  font-weight: 900;
+  border: white;
+  margin-bottom: 20px;
+}
+.main2 {
+  display: flex;
+  background-color: rgb(235, 248, 247);
+  margin-top: 150px;
+  margin-left: 70px;
+  margin-right: 70px;
+
+  height: 500px;
+  box-sizing: border-box;
+}
+.girl {
+  margin-top: 50px;
+  margin-right: 40px;
+}
+.div3 {
+  margin-left: 40px;
+}
+.heading {
+  margin-top: 50px;
+  font-size: 45px;
+  font-weight: 400;
+  color: rgb(67, 67, 82);
+  line-height: 30px;
+}
+.sim {
+  color: rgb(226, 55, 68);
+}
+.locate {
+  background-color: white;
+
+  padding-right: 350px;
+  height: 70px;
+  box-sizing: border-box;
+  border: 2px solid rgb(226, 55, 68);
+  font-size: 15px;
+}
+.buticon {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+.dropdown {
+  background-color: white;
+
+  padding-right: 320px;
+  height: 60px;
+  box-sizing: border-box;
+  border: 2px solid rgb(226, 55, 68);
+  font-size: 15px;
+}
+.check {
+  background-color: white;
+  color: rgb(226, 55, 68);
+  margin-right: 20px;
+  padding-right: 115px;
+  height: 70px;
+  box-sizing: border-box;
+  border: 2px solid rgb(226, 55, 68);
+  font-size: 15px;
+}
+.but2 {
+  background-color: rgb(226, 55, 68);
+  color: white;
+  border-radius: 25px;
+  padding: 20px 70px;
+  border: rgb(226, 55, 68);
+  margin-left: 70px;
+  margin-top: 20px;
+  font-weight: 800;
+}
+.we {
+  text-align: center;
+  color: rgb(67, 67, 82);
+  font-size: 50px;
+}
+
+.p1 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: -20px;
+  color: gray;
+}
+.main4 {
+  display: flex;
+  margin: 10px 70px;
+}
+.park {
+  border: 1px solid #e5e7eb;
+  height: 380px;
+  margin-right: 30px;
+}
+.parkimg {
+  width: 370px;
+  height: 210px;
+  border-radius: 8px;
+}
+.city {
+  color: rgb(44, 44, 56);
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+}
+.but3 {
+  background-color: rgb(226, 55, 68);
+  color: white;
+  border-radius: 25px;
+  padding: 15px 30px;
+  font-weight: 900;
+  border: rgb(226, 55, 68);
+  margin-top: 30px;
+  margin-left: 110px;
+}
+.redbox {
+  /* display: flex; */
+  background-color: rgb(226, 55, 68);
+  border-radius: 10px;
+  margin: 70px 70px;
+  height: 700px;
+}
+.spot {
+  padding-top: 40px;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  font-weight: 400;
+}
+.p2 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+.main5 {
+  display: flex;
+  margin: 10px 50px;
+}
+.fast {
+  text-align: center;
+  color: rgb(67, 67, 82);
+}
+.p3 {
+  text-align: center;
+  color: rgb(49, 44, 44);
+}
+.cards {
+  background-color: white;
+  height: 400px;
+  border-radius: 15px;
+  width: 350px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.cardimg {
+  width: 150px;
+  height: 150px;
+  margin-left: 95px;
+  margin-top: 30px;
+}
+.park1 {
+  border: 1px solid #e5e7eb;
+  height: 430px;
+  margin-right: 30px;
+}
+.parkimg2 {
+  width: 280px;
+  height: 210px;
+  border-radius: 8px;
+}
+.but4 {
+  background-color: rgb(226, 55, 68);
+  color: white;
+  border-radius: 25px;
+  padding: 15px 30px;
+  font-weight: 900;
+  border: rgb(226, 55, 68);
+  margin-top: 10px;
+  margin-left: 80px;
+}
+.p4 {
+  text-align: center;
+  color: rgb(67, 67, 82);
+}
+.day {
+  text-align: center;
+}
+.main6 {
+  display: flex;
+  margin: 10px 80px;
+}
+.readdiv {
+  border: 1px solid #e5e7eb;
+  height: 430px;
+  margin-right: 30px;
+}
+.we1 {
+  text-align: center;
+  color: rgb(67, 67, 82);
+  font-size: 45px;
+  font-weight: 400;
+}
+.articles {
+  margin-left: 70px;
+  font-size: 25px;
+  padding-bottom: -10px;
+}
+.read {
+  padding-top: 30px;
+  font-size: 23px;
+  padding-left: 10px;
+  color: rgb(67, 67, 82);
+}
+.readp {
+  padding-left: 10px;
+  font-size: 15px;
+  color: rgb(67, 67, 82);
+}
+span {
+  color: rgb(226, 55, 68);
+}
